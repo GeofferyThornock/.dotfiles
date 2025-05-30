@@ -1,0 +1,28 @@
+title = "Terminal"
+
+font-family = JetBrains Mono Bold
+
+font-size=20
+
+
+cursor-style=block
+
+
+
+confirm-close-surface = false
+window-decoration = false
+
+window-padding-x = 0
+window-padding-y = 0
+
+
+keybind = ctrl+i=jump_to_prompt:1
+
+#rose-pine-moon
+#Overnight Slumber
+#Mellifluous
+
+
+#miasma
+#Spacedust
+theme = GruvboxDark
