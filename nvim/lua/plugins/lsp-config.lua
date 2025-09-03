@@ -47,8 +47,12 @@ return {
             vim.lsp.enable {
               'lua_ls',
               'asm_lsp',
-              'nil_ls',
+              'marksman',
+              'ts_ls',
+              'clangd',
+              'eslint',
             }
+
 
         end,
     },

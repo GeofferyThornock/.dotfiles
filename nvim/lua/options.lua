@@ -22,7 +22,7 @@ vim.opt.scrolloff = 10
 vim.opt.updatetime = 50
 
 
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>pv", vim.cmd.Oil)
 
 -- these are maybe the best binds to ever grace mankind
 -- when highlighting you can move everything up or down one
@@ -31,8 +31,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 
 
--- and these
--- figured them out
+-- and these figured them out
 -- and this one pastes without unregistering my yank
 
 vim.keymap.set("x", "<leader>p", [["_dP]])
@@ -66,6 +65,9 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+
+
+
 vim.cmd("set termguicolors")
 vim.cmd("set expandtab")
 vim.cmd("set number")
@@ -77,4 +79,4 @@ vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 
-vim.opt.colorcolumn = "100"
+vim.opt.colorcolumn = "90"

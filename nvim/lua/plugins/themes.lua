@@ -1,7 +1,13 @@
 return {
-    { "ellisonleao/gruvbox.nvim", priority = 1000 , config = function() 
+       { "sainnhe/gruvbox-material", priority = 1000 , config = function() 
 
-        vim.o.background = "dark"
-        vim.cmd("colorscheme gruvbox")
-    end, opts = ...},
+           vim.o.background = "dark"
+           vim.cmd("colorscheme gruvbox-material")
+       end, opts = ...},
+--   {
+--       "rebelot/kanagawa.nvim",
+--       config = function()
+--           vim.cmd("colorscheme kanagawa-dragon")
+--       end,
+--   }
 }
